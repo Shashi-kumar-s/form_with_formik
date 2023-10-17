@@ -16,7 +16,6 @@ const RegistrationForm = () => {
         age: "",
         hobbies: "",
       },
-      // validationSchema: schema,
       onSubmit: (data) => {
         console.log("****", data)
       },
